@@ -10,3 +10,14 @@ export interface Customer {
   orderReturnDate: string
   selected?: boolean
 }
+
+export interface CustomerDetail {
+  idTag: string
+  orderReceiptDate: string
+  orderReturnDate: string
+  service: string
+  technicalName: string
+  total: string
+  status: string
+  selected?: boolean
+}
